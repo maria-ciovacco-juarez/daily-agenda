@@ -2,22 +2,9 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 
-const dayjs = require('dayjs')
-
-
-dayjs().startOf('year')
-
-// get and set 
-console.log(day.js().year())
-console.log(day.js().year(2023))
-
-// display
-console.log(day.js().format('DD/MM/YYYY'))
-
-// query
-console.log(dayjs().isSame('2023-01-01', 'year'))
-
-
+$(document).ready(function() {
+  // Set today's date in the header
+  $('#currentDay').text(dayjs().format('dddd, MMMM D')
 
 $(function () {
   // TODO: Add a listener for click events on the save button. This code should
