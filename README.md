@@ -7,6 +7,13 @@ This assignment was to create a daily scheduler with a starter code provided and
 
 Use the following deployment link to access the scheduler through your browser. Chrome is recommended -->
 
+Type whatever task you want in any time block. Click the blue save button to the right of the time block to save your inputted information. Refresh the page to see that your information is still there. 
+
+Delete the input information and refresh the page. You'll see the information regenerate because it's still saved.
+
+To delete entirely, remove the information again, and click the save button. Refresh the page to see that it's blank.
+
+
 ## Credits
 
 -Private tutor outside cohort.
