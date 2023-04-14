@@ -13,6 +13,8 @@ Delete the input information and refresh the page. You'll see the information re
 
 To delete entirely, remove the information again, and click the save button. Refresh the page to see that it's blank.
 
+/Users/mariaciovaccojuarez/Desktop/bootcamp/crispy-octo-meme/daily-agenda/Assets/05-third-party-apis-homework-demo.gif
+
 
 ## Credits
 
