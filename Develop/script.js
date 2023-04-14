@@ -6,6 +6,18 @@ $(document).ready(function() {
   // Set today's date in the header
   $('#currentDay').text(dayjs().format('dddd, MMMM D')
 
+    // the background color for current time
+    var currentHour = dayjs().hour();
+    $('.time-block').each(function() {
+      var hour = parseInt($(this).attr('id').split('-')[1]);
+      if (hour < currentHour) {
+        $(this).addClass('past');
+      } else if (hour === currentHour) {
+        $(this).addClass('present');
+      } else {
+        $(this).addClass('future');
+      }
+
   // Save button and local storage
   $('.saveBtn').click(function() {
     var description = $(this).siblings('.description').val().trim();
