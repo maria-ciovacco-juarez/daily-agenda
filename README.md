@@ -5,7 +5,7 @@ This assignment was to create a daily scheduler with a starter code provided and
 
 ## Usage
 
-Use the following deployment link to access the scheduler through your browser. Chrome is recommended -->
+Use the following deployment link to access the scheduler through your browser. Chrome is recommended --> https://maria-ciovacco-juarez.github.io/daily-agenda/
 
 Type whatever task you want in any time block. Click the blue save button to the right of the time block to save your inputted information. Refresh the page to see that your information is still there. 
 
